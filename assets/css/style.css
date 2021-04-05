@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4 {
+    margin: 0
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+p{
+    margin:0
+}
+
+.header-portfolio{
+    background-color: #335384;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-portfolio img {
+    width: 250px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.header-portfolio h1 {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    border-bottom: 2px solid;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+ul.redes-sociais {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.redes-sociais li {
+    display: inline-block;
+}
+
+.redes-sociais li a {
+    font-size: 28px;
+    color: white;
+    padding: 10px;
+}
+
+h2.title-meu-portfolio {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+/*section {
+    padding: 0 35px;
+}*/
+
+.categoria-projeto.site {
+    background-color: #7f3384;
+}
+
+.categoria-projeto.jogo {
+    background-color: #335384;
+}
+
+.categoria-projeto.ecommerce {
+    background-color: #3c8433;
+}
+
+.categoria-projeto.landingpage {
+    background: #bfbf38;
+}
+span.categoria-projeto.sistemaweb {
+    background: grey;
+}
+
+.projeto > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.projeto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projeto > a .imagem-projeto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    /* width: 200px; */
+    /* height: 200px; */
+    border-radius: 100%;
+    border: 1px solid #939393;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.projeto > a .imagem-projeto > img {
+    width: 100%;
+    height: auto
+}
+
+h4.titulo-projeto {
+    text-align: center;
+    font-size: 27px;
+    color: #5BA7D1;
+    letter-spacing: 3px;
+    margin-bottom: 10px
+}
+
+span.categoria-projeto {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: white;
+    border-radius: 14px;
+    padding: 2px 10px;
+}
+
+.desc-projeto {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+    border-bottom: 1px solid #939393;
+    padding-bottom: 15px;
+
+}
+
+span.tecnologias {
+    font-size: 13px;
+    color: #939393;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+ul.tecnologias-projeto {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 34px;
+
+}
+
+ul.tecnologias-projeto a {
+    color:#939393
+}
+
+footer.footer {
+    background: #5BA7D1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 1300px){
+    ul.projetos {
+        grid-template-columns: 20%
+       
+    }
+}
