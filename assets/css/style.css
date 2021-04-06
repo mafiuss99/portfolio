@@ -154,9 +154,6 @@ span.categoria-projeto {
     text-align: justify;
     border-bottom: 1px solid #939393;
     padding-bottom: 15px;
-    min-height: 196px;
-    max-height: 207px;
-    height: 100%;
 }
 
 span.tecnologias {
@@ -188,6 +185,30 @@ footer.footer {
     color: white;
     font-size: 14px;
     margin-top: 40px;
+}
+
+@media screen and (min-width: 576px){
+    .desc-projeto {
+        height: 227px;
+    }
+}
+
+@media screen and (min-width: 767px){
+    .desc-projeto {
+        height: 143px;
+    }
+}
+
+@media screen and (min-width: 991px){
+    .desc-projeto {
+        height: 257px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .desc-projeto {
+        height: 198px;
+    }
 }
 
 @media screen and (min-width: 1300px){
